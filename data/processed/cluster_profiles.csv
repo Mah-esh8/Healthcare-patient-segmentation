@@ -1,0 +1,5 @@
+cluster_id,cluster_label,patient_count,avg_age,avg_bmi,avg_risk_score,segment_size_pct,avg_annual_visits,avg_billing_amount,avg_days_since_last_visit,dominant_insurance_type,dominant_condition,recommendation
+2,Highest Risk Patients,331,68.73,30.92,74.58,16.55,5.62,6615.97,187.35,Medicare,Hypertension,Prioritize preventive care programs and frequent check-ins for this high-risk group.
+1,High Risk Patients,597,53.69,38.74,44.56,29.85,6.82,3863.24,177.82,Medicare,Hypertension,Offer targeted wellness programs and monitoring.
+0,Moderate Risk Patients,579,54.55,23.36,28.94,28.95,6.52,3843.97,184.84,Medicare,Obesity,Continue standard care and routine reminders.
+3,Low Risk Patients,493,30.44,29.6,9.26,24.65,2.49,2593.59,172.36,Medicaid,Normal,Continue standard care and routine reminders.
