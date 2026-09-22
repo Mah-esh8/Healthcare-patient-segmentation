@@ -24,7 +24,7 @@ load_dotenv()
 DB_HOST = os.getenv("MySQL_HOST", 'localhost')
 DB_USER = os.getenv("MySQL_USER", "root")
 DB_PASSWORD = quote_plus(os.getenv("MySQL_PASSWORD", ""))
-DB_NAME = os.getenv("My_DB", "healthcare_DB")
+DB_NAME = os.getenv("MySQL_DB", "healthcare_DB")
 
 
 def get_engine():
