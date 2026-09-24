@@ -96,7 +96,7 @@ healthcare-patient-segmentation/
 │   └── business_recommendations.md
 │
 ├── requirements.txt
-├── .env
+├── .env.example.txt
 ├── README.md
 ├── app.py
 └── run_pipeline.py
@@ -249,8 +249,8 @@ Short version:
 ### Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/healthcare-patient-segmentation.git
-cd healthcare-patient-segmentation
+git clone https://github.com/Mah-esh8/Healthcare-patient-segmentation.git
+cd Healthcare-patient-segmentation
 ```
 
 ### Install dependencies
@@ -275,9 +275,10 @@ Create a `.env` file in the project root. **Use these exact variable names** —
 
 ```env
 MySQL_HOST=localhost
+MySQL_PORT=3306
 MySQL_USER=root
 MySQL_PASSWORD=your_password
-My_DB=healthcare_DB
+MySQL_DB=healthcare_DB
 ```
 
 ### Run the full pipeline
